@@ -2,31 +2,46 @@
 <html>
     <head>
         <title>Code Blog</title>
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>   
     
     <body>
-        <h1>Code Blog</h1>
-        <p><a href="/index.html">Home</a></p>
-        <h2>First Entry</h2>
-        <p>
-            <ul>
-                <li><strong>What challenges or troubles did you have completing this assignment. How did you work through them?</strong></li>
-                    <ul>
-                        <li>Most of my trouble during this assignment what learning about the limitations of HTML without using CSS. 
-                            Learning how to keep things inline or centered was a challenge I wanted to 
-                        </li>
-                    </ul>
-                <li><strong>What did you learn from this assignment? What did you already know?</strong></li>
-                    <ul>
-                        <li>I learned that HTML is a very limited language in terms of capabilities. It operates in a way 
-                            that is no different 
-                        </li>
-                    </ul>
-                <li><strong>What resources (e.g. specific web articles, the class Campuswire forum, the TAs) were most helpful in completing this assignment? How did you use these resources?</strong></li>
-                    <ul>
-                        <li><strong>deez nuts</strong></li>
-                    </ul>
-            </ul>
-        </p>
+        <div class="sidebar">
+            <a href="/index.html">Home</a>
+            <a class="active" href="/blog.html">Code Blog</a>
+        </div>
+
+        <div class="content">
+            <h1>Code Blog</h1>
+            <!-- <p><a href="/index.html">Home</a></p> -->
+            <h2>First Entry</h2>
+            <p>
+                <ul>
+                    <li><strong>What challenges or troubles did you have completing this assignment. How did you work through them?</strong></li>
+                        <ul>
+                            <li>Most of my trouble during this assignment was learning about the limitations of HTML without using CSS. 
+                                Realizing that HTML is just a glorified print function quickly led me to finding ways to implement CSS. 
+                                Since I didn't particularly understand CSS, I looked around for features I wanted to added and picked 
+                                code from around the internet to implement.
+                            </li>
+                        </ul>
+                    <li><strong>What did you learn from this assignment? What did you already know?</strong></li>
+                        <ul>
+                            <li>I learned that HTML is a very limited language in terms of capabilities. It operates in a way 
+                                that is no different than a print statement, but now on a webpage instead of a terminal. However, most of what I
+                                learned along the way was how to seperate and link files between CSS and HTML.
+                            </li>
+                        </ul>
+                    <li><strong>What resources (e.g. specific web articles, the class Campuswire forum, the TAs) were most helpful in completing this assignment? How did you use these resources?</strong></li>
+                        <ul>
+                            <li>I used a lot of W3school and GeeksforGeeks's guides and code and tweaked some things around until I made some functioning 
+                                lines of code. It definitely is not the cleanest code, but the resources were helpful in aiding me to write functional code 
+                                I can feel more confident in my web development knowledge.
+                            </li>
+                        </ul>
+                </ul>
+            </p>
+        </div>
     </body>
 </html>
